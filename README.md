@@ -1,6 +1,6 @@
 # chengat1314.github.io
 
-Personal site for **Feng Cheng**: *Data platform strategy, with cost-efficient infrastructure.*
+Personal site for **Cheng Feng**: *Data platform strategy, with cost-efficient infrastructure.*
 
 Plain HTML + CSS, no build step. Light/dark mode follows the system setting.
 
