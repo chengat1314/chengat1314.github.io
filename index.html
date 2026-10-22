@@ -62,6 +62,7 @@
         <ul>
           <li><a href="#about">About</a></li>
           <li><a href="#focus">Focus</a></li>
+          <li><a href="#experiments">Experiments</a></li>
           <li><a href="#writing">Writing</a></li>
           <li><a href="#recognition">Recognition</a></li>
           <li><a href="#speaking">Speaking</a></li>
@@ -102,7 +103,7 @@
         </div>
         <ul class="facts" aria-label="Quick facts">
           <li><span>6</span>co-authored Grab Tech Blog posts</li>
-          <li><span>~4K</span>LinkedIn followers</li>
+          <li><span>Featured</span>in Data Engineering Weekly</li>
           <li><span>NUS</span>alumnus</li>
           <li><span lang="zh">EN · 中文</span>English and Chinese</li>
         </ul>
@@ -113,6 +114,7 @@
       <div class="container two-col">
         <h2>About</h2>
         <div class="prose">
+          <blockquote class="motto"><p>Demolish the maze, embrace the agentic world!</p></blockquote>
           <p>I work on Grab's data platform within Tech Infra in Singapore. The goal behind my work is simple: <em>data made easy</em>. Teams across the company should be able to produce, trust, find and use data without fighting the platform.</p>
           <p>With my colleagues, I've written publicly about how Grab approaches data SLAs, real-time ingestion, LLM-powered data classification, conversational data discovery and data mesh. The latest piece covers how more than 95% of data production incidents are now raised automatically and resolved 6x faster.</p>
           <p>I'm increasingly focused on the economics of data infrastructure: picking the right engines and architectures so the platform stays reliable <em>and</em> cost-efficient as it grows.</p>
@@ -153,14 +155,37 @@
           <article class="card highlight">
             <div class="icon" aria-hidden="true">06</div>
             <h3>Cost-efficient cloud infrastructure</h3>
-            <p>Designing data infrastructure that scales without runaway spend. This is a current focus.</p>
-            <p class="tag">Writing soon</p>
+            <p>Designing data infrastructure that scales without runaway spend, with the right engines and architectures for each workload.</p>
           </article>
         </div>
       </div>
     </section>
 
-    <section id="writing" class="section">
+    <section id="experiments" class="section">
+      <div class="container">
+        <h2>Current experiments</h2>
+        <p class="note">Agentic AI tooling for the data platform.</p>
+        <div class="grid exp-grid">
+          <article class="card exp">
+            <div class="exp-head"><div class="icon" aria-hidden="true">AI</div><span class="status live"><span class="dot" aria-hidden="true"></span>Live in production</span></div>
+            <h3>LLM-powered wiki maintainer for DEP</h3>
+            <p>An LLM that keeps the DEP wiki maintained and current.</p>
+          </article>
+          <article class="card exp">
+            <div class="exp-head"><div class="icon" aria-hidden="true">AI</div></div>
+            <h3>Agentic Slack bot for data discovery</h3>
+            <p>An agent in Slack that helps people find the data they need.</p>
+          </article>
+          <article class="card exp">
+            <div class="exp-head"><div class="icon" aria-hidden="true">AI</div></div>
+            <h3>Metric onboarding via Claude Code</h3>
+            <p>Using Claude Code to onboard metrics onto the platform.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="writing" class="section alt">
       <div class="container">
         <div class="section-head">
           <h2>Writing</h2>
@@ -204,7 +229,7 @@
       </div>
     </section>
 
-    <section id="recognition" class="section alt">
+    <section id="recognition" class="section">
       <div class="container">
         <h2>Recognition</h2>
         <div class="grid recog">
@@ -234,7 +259,7 @@
       </div>
     </section>
 
-    <section id="speaking" class="section">
+    <section id="speaking" class="section alt">
       <div class="container two-col">
         <h2>Speaking</h2>
         <div class="prose">
@@ -257,7 +282,7 @@
       </div>
     </section>
 
-    <section id="contact" class="section alt contact">
+    <section id="contact" class="section contact">
       <div class="container">
         <h2>Let's talk data platforms</h2>
         <p class="sub">The best way to reach me is a LinkedIn message.</p>
