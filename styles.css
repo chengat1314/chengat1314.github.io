@@ -194,6 +194,9 @@ p { margin: 0 0 1em; }
 .talks .muted { font-size: .92rem; }
 .talks a { display: inline-block; margin-top: 6px; font-weight: 600; text-decoration: none; font-size: .95rem; }
 .talks-cta { margin-top: 24px; }
+.talks-all { margin-top: 16px; }
+.talks a + a { margin-left: 16px; }
+.pubs .me { color: var(--text); font-weight: 700; }
 
 .contact { text-align: center; border-top: 1px solid var(--border); }
 .contact .sub { margin: 0 auto; }
