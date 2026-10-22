@@ -188,6 +188,12 @@ p { margin: 0 0 1em; }
 .talks li { display: grid; grid-template-columns: 90px 1fr; gap: 16px; padding: 14px 0; border-top: 1px solid var(--border); }
 .talks time { color: var(--accent); font-weight: 700; font-size: .85rem; }
 .talks span { display: block; }
+.talks span span { display: inline; }
+.talks strong { font-size: 1.05rem; line-height: 1.4; }
+.talks .talk-en { color: var(--text); margin: 2px 0 6px; font-size: .97rem; }
+.talks .muted { font-size: .92rem; }
+.talks a { display: inline-block; margin-top: 6px; font-weight: 600; text-decoration: none; font-size: .95rem; }
+.talks-cta { margin-top: 24px; }
 
 .contact { text-align: center; border-top: 1px solid var(--border); }
 .contact .sub { margin: 0 auto; }
@@ -222,6 +228,7 @@ p { margin: 0 0 1em; }
   .lede .accent { white-space: normal; }
   .hero::before { width: 380px; height: 380px; inset: -20% -40% auto auto; }
   .btn { padding: 10px 16px; }
+  .talks li { grid-template-columns: 1fr; gap: 4px; }
 }
 @media print {
   .site-header, .cta, .skip-link { display: none; }
