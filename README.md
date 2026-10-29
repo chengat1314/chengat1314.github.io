@@ -1,6 +1,6 @@
 # chengat1314.github.io
 
-Personal site for **Cheng Feng**: *Building stable, secure and cost-efficient data platforms.*
+Personal site for **Cheng Feng**: *Building reliable, secure and discoverable data platforms.*
 
 Plain HTML + CSS, no build step. Light/dark mode follows the system setting.
 
