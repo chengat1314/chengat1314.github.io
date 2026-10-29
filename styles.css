@@ -147,6 +147,9 @@ p { margin: 0 0 1em; }
   width: 40px; height: 40px; border-radius: 10px; display: grid; place-items: center; margin-bottom: 14px;
   background: var(--accent-soft); color: var(--accent); font-weight: 700; font-size: .85rem; letter-spacing: .02em;
 }
+.card-links { margin-top: 12px !important; display: flex; flex-wrap: wrap; gap: 6px 16px; }
+.card-links a { font-weight: 600; text-decoration: none; font-size: .93rem; }
+.facts a { font-weight: 600; text-decoration: none; white-space: nowrap; }
 .card.highlight { border-color: color-mix(in srgb, var(--accent) 45%, var(--border)); }
 .tag {
   display: inline-block; margin-top: 14px !important; padding: 3px 10px; border-radius: 999px;
@@ -236,4 +239,9 @@ p { margin: 0 0 1em; }
 @media print {
   .site-header, .cta, .skip-link { display: none; }
   .section.alt { background: none; }
+}
+
+@media (max-width: 960px) and (min-width: 621px) {
+  .nav ul { gap: 0; }
+  .nav ul a { padding: 6px 7px; font-size: .88rem; }
 }
